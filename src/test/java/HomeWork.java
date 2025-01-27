@@ -20,6 +20,9 @@ public class HomeWork {
         WebElement div = wd.findElement(By.tagName("div"));
         WebElement div1 = wd.findElement(By.cssSelector("div"));
 
+        WebElement button2 = wd.findElement(By.tagName("button"));
+        WebElement button3 = wd.findElement(By.cssSelector("button"));
+
         WebElement h1 = wd.findElement(By.tagName("h1"));
         WebElement h = wd.findElement(By.cssSelector("h1"));
 
